@@ -4,8 +4,8 @@
 
 ### Original Result
 
-![Original Result]('./img/original.png)
+![Original Result](img/original.png)
 
 ### Advanced Result
 
-![Original Result]('./img/advanced.png)
+![Original Result](img/advanced.png)
