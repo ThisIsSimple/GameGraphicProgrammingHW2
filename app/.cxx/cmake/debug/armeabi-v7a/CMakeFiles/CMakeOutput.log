@@ -1,19 +1,19 @@
 The target system is: Android - 1 - armv7-a
 The host system is: Darwin - 19.4.0 - x86_64
 Determining if the C compiler works passed with the following output:
-Change Dir: /Users/cordelia273/Downloads/-GameGraphics-_Homework2-master/OpenGLES_HW2/OpenGLES_HW2/app/.cxx/cmake/debug/armeabi-v7a/CMakeFiles/CMakeTmp
+Change Dir: /Users/cordelia273/Library/Mobile Documents/com~apple~CloudDocs/경희대/2학년 1학기/게임 그래픽 프로그래밍/Homework2/OpenGLES_HW2/OpenGLES_HW2/app/.cxx/cmake/debug/armeabi-v7a/CMakeFiles/CMakeTmp
 
-Run Build Command:"/Users/cordelia273/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja" "cmTC_fbc59"
-[1/2] Building C object CMakeFiles/cmTC_fbc59.dir/testCCompiler.c.o
-[2/2] Linking C executable cmTC_fbc59
+Run Build Command:"/Users/cordelia273/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja" "cmTC_4fd22"
+[1/2] Building C object CMakeFiles/cmTC_4fd22.dir/testCCompiler.c.o
+[2/2] Linking C executable cmTC_4fd22
 
 
 Detecting C compiler ABI info compiled with the following output:
-Change Dir: /Users/cordelia273/Downloads/-GameGraphics-_Homework2-master/OpenGLES_HW2/OpenGLES_HW2/app/.cxx/cmake/debug/armeabi-v7a/CMakeFiles/CMakeTmp
+Change Dir: /Users/cordelia273/Library/Mobile Documents/com~apple~CloudDocs/경희대/2학년 1학기/게임 그래픽 프로그래밍/Homework2/OpenGLES_HW2/OpenGLES_HW2/app/.cxx/cmake/debug/armeabi-v7a/CMakeFiles/CMakeTmp
 
-Run Build Command:"/Users/cordelia273/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja" "cmTC_a44f1"
-[1/2] Building C object CMakeFiles/cmTC_a44f1.dir/CMakeCCompilerABI.c.o
-[2/2] Linking C executable cmTC_a44f1
+Run Build Command:"/Users/cordelia273/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja" "cmTC_62915"
+[1/2] Building C object CMakeFiles/cmTC_62915.dir/CMakeCCompilerABI.c.o
+[2/2] Linking C executable cmTC_62915
 Android (5900059 based on r365631c) clang version 9.0.8 (https://android.googlesource.com/toolchain/llvm-project 207d7abc1a2abf3ef8d4301736d6a7ebc224a290) (based on LLVM 9.0.8svn)
 Target: armv7-none-linux-android24
 Thread model: posix
@@ -25,16 +25,16 @@ Candidate multilib: armv7-a;@march=armv7-a
 Candidate multilib: armv7-a/thumb;@march=armv7-a@mthumb
 Candidate multilib: .;
 Selected multilib: armv7-a/thumb;@march=armv7-a@mthumb
- "/Users/cordelia273/Library/Android/sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/darwin-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/bin/ld" --sysroot=/Users/cordelia273/Library/Android/sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -pie -z noexecstack -EL --warn-shared-textrel -z now -z relro -X --hash-style=gnu --enable-new-dtags --eh-frame-hdr -m armelf_linux_eabi -dynamic-linker /system/bin/linker -o cmTC_a44f1 /Users/cordelia273/Library/Android/sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/arm-linux-androideabi/24/crtbegin_dynamic.o -L/Users/cordelia273/Library/Android/sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/9.0.8/lib/linux/arm -L/Users/cordelia273/Library/Android/sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/darwin-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/armv7-a/thumb -L/Users/cordelia273/Library/Android/sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/darwin-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib/../lib/armv7-a/thumb -L/Users/cordelia273/Library/Android/sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/arm-linux-androideabi/24 -L/Users/cordelia273/Library/Android/sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/arm-linux-androideabi -L/Users/cordelia273/Library/Android/sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/../lib -L/Users/cordelia273/Library/Android/sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/arm-linux-androideabi/../../lib -L/Users/cordelia273/Library/Android/sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/darwin-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib/armv7-a/thumb -L/Users/cordelia273/Library/Android/sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib --exclude-libs libgcc_real.a --exclude-libs libatomic.a --build-id --fatal-warnings --exclude-libs libunwind.a --no-undefined --gc-sections CMakeFiles/cmTC_a44f1.dir/CMakeCCompilerABI.c.o -lgcc -ldl -lc -lgcc -ldl /Users/cordelia273/Library/Android/sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/arm-linux-androideabi/24/crtend_android.o
+ "/Users/cordelia273/Library/Android/sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/darwin-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/bin/ld" --sysroot=/Users/cordelia273/Library/Android/sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -pie -z noexecstack -EL --warn-shared-textrel -z now -z relro -X --hash-style=gnu --enable-new-dtags --eh-frame-hdr -m armelf_linux_eabi -dynamic-linker /system/bin/linker -o cmTC_62915 /Users/cordelia273/Library/Android/sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/arm-linux-androideabi/24/crtbegin_dynamic.o -L/Users/cordelia273/Library/Android/sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/9.0.8/lib/linux/arm -L/Users/cordelia273/Library/Android/sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/darwin-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/armv7-a/thumb -L/Users/cordelia273/Library/Android/sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/darwin-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib/../lib/armv7-a/thumb -L/Users/cordelia273/Library/Android/sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/arm-linux-androideabi/24 -L/Users/cordelia273/Library/Android/sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/arm-linux-androideabi -L/Users/cordelia273/Library/Android/sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/../lib -L/Users/cordelia273/Library/Android/sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/arm-linux-androideabi/../../lib -L/Users/cordelia273/Library/Android/sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/darwin-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib/armv7-a/thumb -L/Users/cordelia273/Library/Android/sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib --exclude-libs libgcc_real.a --exclude-libs libatomic.a --build-id --fatal-warnings --exclude-libs libunwind.a --no-undefined --gc-sections CMakeFiles/cmTC_62915.dir/CMakeCCompilerABI.c.o -lgcc -ldl -lc -lgcc -ldl /Users/cordelia273/Library/Android/sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/arm-linux-androideabi/24/crtend_android.o
 
 
 Parsed C implicit link information from above output:
   link line regex: [^( *|.*[/\])(arm-linux-androideabi-ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
-  ignore line: [Change Dir: /Users/cordelia273/Downloads/-GameGraphics-_Homework2-master/OpenGLES_HW2/OpenGLES_HW2/app/.cxx/cmake/debug/armeabi-v7a/CMakeFiles/CMakeTmp]
+  ignore line: [Change Dir: /Users/cordelia273/Library/Mobile Documents/com~apple~CloudDocs/경희대/2학년 1학기/게임 그래픽 프로그래밍/Homework2/OpenGLES_HW2/OpenGLES_HW2/app/.cxx/cmake/debug/armeabi-v7a/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command:"/Users/cordelia273/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja" "cmTC_a44f1"]
-  ignore line: [[1/2] Building C object CMakeFiles/cmTC_a44f1.dir/CMakeCCompilerABI.c.o]
-  ignore line: [[2/2] Linking C executable cmTC_a44f1]
+  ignore line: [Run Build Command:"/Users/cordelia273/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja" "cmTC_62915"]
+  ignore line: [[1/2] Building C object CMakeFiles/cmTC_62915.dir/CMakeCCompilerABI.c.o]
+  ignore line: [[2/2] Linking C executable cmTC_62915]
   ignore line: [Android (5900059 based on r365631c) clang version 9.0.8 (https://android.googlesource.com/toolchain/llvm-project 207d7abc1a2abf3ef8d4301736d6a7ebc224a290) (based on LLVM 9.0.8svn)]
   ignore line: [Target: armv7-none-linux-android24]
   ignore line: [Thread model: posix]
@@ -51,7 +51,7 @@ Parsed C implicit link information from above output:
   ignore line: []
   ignore line: [Selected multilib: armv7-a/thumb]
   ignore line: [@march=armv7-a@mthumb]
-  link line: [ "/Users/cordelia273/Library/Android/sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/darwin-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/bin/ld" --sysroot=/Users/cordelia273/Library/Android/sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -pie -z noexecstack -EL --warn-shared-textrel -z now -z relro -X --hash-style=gnu --enable-new-dtags --eh-frame-hdr -m armelf_linux_eabi -dynamic-linker /system/bin/linker -o cmTC_a44f1 /Users/cordelia273/Library/Android/sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/arm-linux-androideabi/24/crtbegin_dynamic.o -L/Users/cordelia273/Library/Android/sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/9.0.8/lib/linux/arm -L/Users/cordelia273/Library/Android/sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/darwin-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/armv7-a/thumb -L/Users/cordelia273/Library/Android/sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/darwin-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib/../lib/armv7-a/thumb -L/Users/cordelia273/Library/Android/sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/arm-linux-androideabi/24 -L/Users/cordelia273/Library/Android/sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/arm-linux-androideabi -L/Users/cordelia273/Library/Android/sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/../lib -L/Users/cordelia273/Library/Android/sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/arm-linux-androideabi/../../lib -L/Users/cordelia273/Library/Android/sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/darwin-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib/armv7-a/thumb -L/Users/cordelia273/Library/Android/sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib --exclude-libs libgcc_real.a --exclude-libs libatomic.a --build-id --fatal-warnings --exclude-libs libunwind.a --no-undefined --gc-sections CMakeFiles/cmTC_a44f1.dir/CMakeCCompilerABI.c.o -lgcc -ldl -lc -lgcc -ldl /Users/cordelia273/Library/Android/sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/arm-linux-androideabi/24/crtend_android.o]
+  link line: [ "/Users/cordelia273/Library/Android/sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/darwin-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/bin/ld" --sysroot=/Users/cordelia273/Library/Android/sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -pie -z noexecstack -EL --warn-shared-textrel -z now -z relro -X --hash-style=gnu --enable-new-dtags --eh-frame-hdr -m armelf_linux_eabi -dynamic-linker /system/bin/linker -o cmTC_62915 /Users/cordelia273/Library/Android/sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/arm-linux-androideabi/24/crtbegin_dynamic.o -L/Users/cordelia273/Library/Android/sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/9.0.8/lib/linux/arm -L/Users/cordelia273/Library/Android/sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/darwin-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/armv7-a/thumb -L/Users/cordelia273/Library/Android/sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/darwin-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib/../lib/armv7-a/thumb -L/Users/cordelia273/Library/Android/sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/arm-linux-androideabi/24 -L/Users/cordelia273/Library/Android/sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/arm-linux-androideabi -L/Users/cordelia273/Library/Android/sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/../lib -L/Users/cordelia273/Library/Android/sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/arm-linux-androideabi/../../lib -L/Users/cordelia273/Library/Android/sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/darwin-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib/armv7-a/thumb -L/Users/cordelia273/Library/Android/sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib --exclude-libs libgcc_real.a --exclude-libs libatomic.a --build-id --fatal-warnings --exclude-libs libunwind.a --no-undefined --gc-sections CMakeFiles/cmTC_62915.dir/CMakeCCompilerABI.c.o -lgcc -ldl -lc -lgcc -ldl /Users/cordelia273/Library/Android/sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/arm-linux-androideabi/24/crtend_android.o]
     arg [/Users/cordelia273/Library/Android/sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/darwin-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/bin/ld] ==> ignore
     arg [--sysroot=/Users/cordelia273/Library/Android/sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/darwin-x86_64/sysroot] ==> ignore
     arg [-pie] ==> ignore
@@ -69,7 +69,7 @@ Parsed C implicit link information from above output:
     arg [-dynamic-linker] ==> ignore
     arg [/system/bin/linker] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_a44f1] ==> ignore
+    arg [cmTC_62915] ==> ignore
     arg [/Users/cordelia273/Library/Android/sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/arm-linux-androideabi/24/crtbegin_dynamic.o] ==> ignore
     arg [-L/Users/cordelia273/Library/Android/sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/9.0.8/lib/linux/arm] ==> dir [/Users/cordelia273/Library/Android/sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/9.0.8/lib/linux/arm]
     arg [-L/Users/cordelia273/Library/Android/sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/darwin-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/armv7-a/thumb] ==> dir [/Users/cordelia273/Library/Android/sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/darwin-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/armv7-a/thumb]
@@ -90,7 +90,7 @@ Parsed C implicit link information from above output:
     arg [libunwind.a] ==> ignore
     arg [--no-undefined] ==> ignore
     arg [--gc-sections] ==> ignore
-    arg [CMakeFiles/cmTC_a44f1.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [CMakeFiles/cmTC_62915.dir/CMakeCCompilerABI.c.o] ==> ignore
     arg [-lgcc] ==> lib [gcc]
     arg [-ldl] ==> lib [dl]
     arg [-lc] ==> lib [c]
@@ -114,11 +114,11 @@ Parsed C implicit link information from above output:
 
 
 Detecting C [-std=c11] compiler features compiled with the following output:
-Change Dir: /Users/cordelia273/Downloads/-GameGraphics-_Homework2-master/OpenGLES_HW2/OpenGLES_HW2/app/.cxx/cmake/debug/armeabi-v7a/CMakeFiles/CMakeTmp
+Change Dir: /Users/cordelia273/Library/Mobile Documents/com~apple~CloudDocs/경희대/2학년 1학기/게임 그래픽 프로그래밍/Homework2/OpenGLES_HW2/OpenGLES_HW2/app/.cxx/cmake/debug/armeabi-v7a/CMakeFiles/CMakeTmp
 
-Run Build Command:"/Users/cordelia273/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja" "cmTC_f0062"
-[1/2] Building C object CMakeFiles/cmTC_f0062.dir/feature_tests.c.o
-[2/2] Linking C executable cmTC_f0062
+Run Build Command:"/Users/cordelia273/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja" "cmTC_1b158"
+[1/2] Building C object CMakeFiles/cmTC_1b158.dir/feature_tests.c.o
+[2/2] Linking C executable cmTC_1b158
 
 
     Feature record: C_FEATURE:1c_function_prototypes
@@ -128,11 +128,11 @@ Run Build Command:"/Users/cordelia273/Library/Android/sdk/cmake/3.10.2.4988404/b
 
 
 Detecting C [-std=c99] compiler features compiled with the following output:
-Change Dir: /Users/cordelia273/Downloads/-GameGraphics-_Homework2-master/OpenGLES_HW2/OpenGLES_HW2/app/.cxx/cmake/debug/armeabi-v7a/CMakeFiles/CMakeTmp
+Change Dir: /Users/cordelia273/Library/Mobile Documents/com~apple~CloudDocs/경희대/2학년 1학기/게임 그래픽 프로그래밍/Homework2/OpenGLES_HW2/OpenGLES_HW2/app/.cxx/cmake/debug/armeabi-v7a/CMakeFiles/CMakeTmp
 
-Run Build Command:"/Users/cordelia273/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja" "cmTC_b90cf"
-[1/2] Building C object CMakeFiles/cmTC_b90cf.dir/feature_tests.c.o
-[2/2] Linking C executable cmTC_b90cf
+Run Build Command:"/Users/cordelia273/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja" "cmTC_fb9fb"
+[1/2] Building C object CMakeFiles/cmTC_fb9fb.dir/feature_tests.c.o
+[2/2] Linking C executable cmTC_fb9fb
 
 
     Feature record: C_FEATURE:1c_function_prototypes
@@ -142,11 +142,11 @@ Run Build Command:"/Users/cordelia273/Library/Android/sdk/cmake/3.10.2.4988404/b
 
 
 Detecting C [-std=c90] compiler features compiled with the following output:
-Change Dir: /Users/cordelia273/Downloads/-GameGraphics-_Homework2-master/OpenGLES_HW2/OpenGLES_HW2/app/.cxx/cmake/debug/armeabi-v7a/CMakeFiles/CMakeTmp
+Change Dir: /Users/cordelia273/Library/Mobile Documents/com~apple~CloudDocs/경희대/2학년 1학기/게임 그래픽 프로그래밍/Homework2/OpenGLES_HW2/OpenGLES_HW2/app/.cxx/cmake/debug/armeabi-v7a/CMakeFiles/CMakeTmp
 
-Run Build Command:"/Users/cordelia273/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja" "cmTC_67b96"
-[1/2] Building C object CMakeFiles/cmTC_67b96.dir/feature_tests.c.o
-[2/2] Linking C executable cmTC_67b96
+Run Build Command:"/Users/cordelia273/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja" "cmTC_31176"
+[1/2] Building C object CMakeFiles/cmTC_31176.dir/feature_tests.c.o
+[2/2] Linking C executable cmTC_31176
 
 
     Feature record: C_FEATURE:1c_function_prototypes
@@ -154,19 +154,19 @@ Run Build Command:"/Users/cordelia273/Library/Android/sdk/cmake/3.10.2.4988404/b
     Feature record: C_FEATURE:0c_static_assert
     Feature record: C_FEATURE:0c_variadic_macros
 Determining if the CXX compiler works passed with the following output:
-Change Dir: /Users/cordelia273/Downloads/-GameGraphics-_Homework2-master/OpenGLES_HW2/OpenGLES_HW2/app/.cxx/cmake/debug/armeabi-v7a/CMakeFiles/CMakeTmp
+Change Dir: /Users/cordelia273/Library/Mobile Documents/com~apple~CloudDocs/경희대/2학년 1학기/게임 그래픽 프로그래밍/Homework2/OpenGLES_HW2/OpenGLES_HW2/app/.cxx/cmake/debug/armeabi-v7a/CMakeFiles/CMakeTmp
 
-Run Build Command:"/Users/cordelia273/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja" "cmTC_6d38e"
-[1/2] Building CXX object CMakeFiles/cmTC_6d38e.dir/testCXXCompiler.cxx.o
-[2/2] Linking CXX executable cmTC_6d38e
+Run Build Command:"/Users/cordelia273/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja" "cmTC_a0c9c"
+[1/2] Building CXX object CMakeFiles/cmTC_a0c9c.dir/testCXXCompiler.cxx.o
+[2/2] Linking CXX executable cmTC_a0c9c
 
 
 Detecting CXX compiler ABI info compiled with the following output:
-Change Dir: /Users/cordelia273/Downloads/-GameGraphics-_Homework2-master/OpenGLES_HW2/OpenGLES_HW2/app/.cxx/cmake/debug/armeabi-v7a/CMakeFiles/CMakeTmp
+Change Dir: /Users/cordelia273/Library/Mobile Documents/com~apple~CloudDocs/경희대/2학년 1학기/게임 그래픽 프로그래밍/Homework2/OpenGLES_HW2/OpenGLES_HW2/app/.cxx/cmake/debug/armeabi-v7a/CMakeFiles/CMakeTmp
 
-Run Build Command:"/Users/cordelia273/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja" "cmTC_0cc9b"
-[1/2] Building CXX object CMakeFiles/cmTC_0cc9b.dir/CMakeCXXCompilerABI.cpp.o
-[2/2] Linking CXX executable cmTC_0cc9b
+Run Build Command:"/Users/cordelia273/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja" "cmTC_1d5f6"
+[1/2] Building CXX object CMakeFiles/cmTC_1d5f6.dir/CMakeCXXCompilerABI.cpp.o
+[2/2] Linking CXX executable cmTC_1d5f6
 Android (5900059 based on r365631c) clang version 9.0.8 (https://android.googlesource.com/toolchain/llvm-project 207d7abc1a2abf3ef8d4301736d6a7ebc224a290) (based on LLVM 9.0.8svn)
 Target: armv7-none-linux-android24
 Thread model: posix
@@ -178,16 +178,16 @@ Candidate multilib: armv7-a;@march=armv7-a
 Candidate multilib: armv7-a/thumb;@march=armv7-a@mthumb
 Candidate multilib: .;
 Selected multilib: armv7-a/thumb;@march=armv7-a@mthumb
- "/Users/cordelia273/Library/Android/sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/darwin-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/bin/ld" --sysroot=/Users/cordelia273/Library/Android/sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -pie -z noexecstack -EL --warn-shared-textrel -z now -z relro -X --hash-style=gnu --enable-new-dtags --eh-frame-hdr -m armelf_linux_eabi -dynamic-linker /system/bin/linker -o cmTC_0cc9b /Users/cordelia273/Library/Android/sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/arm-linux-androideabi/24/crtbegin_dynamic.o -L/Users/cordelia273/Library/Android/sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/9.0.8/lib/linux/arm -L/Users/cordelia273/Library/Android/sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/darwin-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/armv7-a/thumb -L/Users/cordelia273/Library/Android/sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/darwin-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib/../lib/armv7-a/thumb -L/Users/cordelia273/Library/Android/sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/arm-linux-androideabi/24 -L/Users/cordelia273/Library/Android/sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/arm-linux-androideabi -L/Users/cordelia273/Library/Android/sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/../lib -L/Users/cordelia273/Library/Android/sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/arm-linux-androideabi/../../lib -L/Users/cordelia273/Library/Android/sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/darwin-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib/armv7-a/thumb -L/Users/cordelia273/Library/Android/sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib --exclude-libs libgcc_real.a --exclude-libs libatomic.a --build-id --fatal-warnings --exclude-libs libunwind.a --no-undefined --gc-sections CMakeFiles/cmTC_0cc9b.dir/CMakeCXXCompilerABI.cpp.o -Bstatic -lc++ -Bdynamic -lm -lgcc -ldl -lc -lgcc -ldl /Users/cordelia273/Library/Android/sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/arm-linux-androideabi/24/crtend_android.o
+ "/Users/cordelia273/Library/Android/sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/darwin-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/bin/ld" --sysroot=/Users/cordelia273/Library/Android/sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -pie -z noexecstack -EL --warn-shared-textrel -z now -z relro -X --hash-style=gnu --enable-new-dtags --eh-frame-hdr -m armelf_linux_eabi -dynamic-linker /system/bin/linker -o cmTC_1d5f6 /Users/cordelia273/Library/Android/sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/arm-linux-androideabi/24/crtbegin_dynamic.o -L/Users/cordelia273/Library/Android/sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/9.0.8/lib/linux/arm -L/Users/cordelia273/Library/Android/sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/darwin-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/armv7-a/thumb -L/Users/cordelia273/Library/Android/sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/darwin-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib/../lib/armv7-a/thumb -L/Users/cordelia273/Library/Android/sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/arm-linux-androideabi/24 -L/Users/cordelia273/Library/Android/sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/arm-linux-androideabi -L/Users/cordelia273/Library/Android/sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/../lib -L/Users/cordelia273/Library/Android/sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/arm-linux-androideabi/../../lib -L/Users/cordelia273/Library/Android/sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/darwin-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib/armv7-a/thumb -L/Users/cordelia273/Library/Android/sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib --exclude-libs libgcc_real.a --exclude-libs libatomic.a --build-id --fatal-warnings --exclude-libs libunwind.a --no-undefined --gc-sections CMakeFiles/cmTC_1d5f6.dir/CMakeCXXCompilerABI.cpp.o -Bstatic -lc++ -Bdynamic -lm -lgcc -ldl -lc -lgcc -ldl /Users/cordelia273/Library/Android/sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/arm-linux-androideabi/24/crtend_android.o
 
 
 Parsed CXX implicit link information from above output:
   link line regex: [^( *|.*[/\])(arm-linux-androideabi-ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
-  ignore line: [Change Dir: /Users/cordelia273/Downloads/-GameGraphics-_Homework2-master/OpenGLES_HW2/OpenGLES_HW2/app/.cxx/cmake/debug/armeabi-v7a/CMakeFiles/CMakeTmp]
+  ignore line: [Change Dir: /Users/cordelia273/Library/Mobile Documents/com~apple~CloudDocs/경희대/2학년 1학기/게임 그래픽 프로그래밍/Homework2/OpenGLES_HW2/OpenGLES_HW2/app/.cxx/cmake/debug/armeabi-v7a/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command:"/Users/cordelia273/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja" "cmTC_0cc9b"]
-  ignore line: [[1/2] Building CXX object CMakeFiles/cmTC_0cc9b.dir/CMakeCXXCompilerABI.cpp.o]
-  ignore line: [[2/2] Linking CXX executable cmTC_0cc9b]
+  ignore line: [Run Build Command:"/Users/cordelia273/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja" "cmTC_1d5f6"]
+  ignore line: [[1/2] Building CXX object CMakeFiles/cmTC_1d5f6.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [[2/2] Linking CXX executable cmTC_1d5f6]
   ignore line: [Android (5900059 based on r365631c) clang version 9.0.8 (https://android.googlesource.com/toolchain/llvm-project 207d7abc1a2abf3ef8d4301736d6a7ebc224a290) (based on LLVM 9.0.8svn)]
   ignore line: [Target: armv7-none-linux-android24]
   ignore line: [Thread model: posix]
@@ -204,7 +204,7 @@ Parsed CXX implicit link information from above output:
   ignore line: []
   ignore line: [Selected multilib: armv7-a/thumb]
   ignore line: [@march=armv7-a@mthumb]
-  link line: [ "/Users/cordelia273/Library/Android/sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/darwin-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/bin/ld" --sysroot=/Users/cordelia273/Library/Android/sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -pie -z noexecstack -EL --warn-shared-textrel -z now -z relro -X --hash-style=gnu --enable-new-dtags --eh-frame-hdr -m armelf_linux_eabi -dynamic-linker /system/bin/linker -o cmTC_0cc9b /Users/cordelia273/Library/Android/sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/arm-linux-androideabi/24/crtbegin_dynamic.o -L/Users/cordelia273/Library/Android/sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/9.0.8/lib/linux/arm -L/Users/cordelia273/Library/Android/sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/darwin-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/armv7-a/thumb -L/Users/cordelia273/Library/Android/sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/darwin-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib/../lib/armv7-a/thumb -L/Users/cordelia273/Library/Android/sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/arm-linux-androideabi/24 -L/Users/cordelia273/Library/Android/sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/arm-linux-androideabi -L/Users/cordelia273/Library/Android/sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/../lib -L/Users/cordelia273/Library/Android/sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/arm-linux-androideabi/../../lib -L/Users/cordelia273/Library/Android/sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/darwin-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib/armv7-a/thumb -L/Users/cordelia273/Library/Android/sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib --exclude-libs libgcc_real.a --exclude-libs libatomic.a --build-id --fatal-warnings --exclude-libs libunwind.a --no-undefined --gc-sections CMakeFiles/cmTC_0cc9b.dir/CMakeCXXCompilerABI.cpp.o -Bstatic -lc++ -Bdynamic -lm -lgcc -ldl -lc -lgcc -ldl /Users/cordelia273/Library/Android/sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/arm-linux-androideabi/24/crtend_android.o]
+  link line: [ "/Users/cordelia273/Library/Android/sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/darwin-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/bin/ld" --sysroot=/Users/cordelia273/Library/Android/sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -pie -z noexecstack -EL --warn-shared-textrel -z now -z relro -X --hash-style=gnu --enable-new-dtags --eh-frame-hdr -m armelf_linux_eabi -dynamic-linker /system/bin/linker -o cmTC_1d5f6 /Users/cordelia273/Library/Android/sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/arm-linux-androideabi/24/crtbegin_dynamic.o -L/Users/cordelia273/Library/Android/sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/9.0.8/lib/linux/arm -L/Users/cordelia273/Library/Android/sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/darwin-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/armv7-a/thumb -L/Users/cordelia273/Library/Android/sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/darwin-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib/../lib/armv7-a/thumb -L/Users/cordelia273/Library/Android/sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/arm-linux-androideabi/24 -L/Users/cordelia273/Library/Android/sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/arm-linux-androideabi -L/Users/cordelia273/Library/Android/sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/../lib -L/Users/cordelia273/Library/Android/sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/arm-linux-androideabi/../../lib -L/Users/cordelia273/Library/Android/sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/darwin-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib/armv7-a/thumb -L/Users/cordelia273/Library/Android/sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib --exclude-libs libgcc_real.a --exclude-libs libatomic.a --build-id --fatal-warnings --exclude-libs libunwind.a --no-undefined --gc-sections CMakeFiles/cmTC_1d5f6.dir/CMakeCXXCompilerABI.cpp.o -Bstatic -lc++ -Bdynamic -lm -lgcc -ldl -lc -lgcc -ldl /Users/cordelia273/Library/Android/sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/arm-linux-androideabi/24/crtend_android.o]
     arg [/Users/cordelia273/Library/Android/sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/darwin-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/bin/ld] ==> ignore
     arg [--sysroot=/Users/cordelia273/Library/Android/sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/darwin-x86_64/sysroot] ==> ignore
     arg [-pie] ==> ignore
@@ -222,7 +222,7 @@ Parsed CXX implicit link information from above output:
     arg [-dynamic-linker] ==> ignore
     arg [/system/bin/linker] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_0cc9b] ==> ignore
+    arg [cmTC_1d5f6] ==> ignore
     arg [/Users/cordelia273/Library/Android/sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/arm-linux-androideabi/24/crtbegin_dynamic.o] ==> ignore
     arg [-L/Users/cordelia273/Library/Android/sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/9.0.8/lib/linux/arm] ==> dir [/Users/cordelia273/Library/Android/sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/9.0.8/lib/linux/arm]
     arg [-L/Users/cordelia273/Library/Android/sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/darwin-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/armv7-a/thumb] ==> dir [/Users/cordelia273/Library/Android/sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/darwin-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/armv7-a/thumb]
@@ -243,7 +243,7 @@ Parsed CXX implicit link information from above output:
     arg [libunwind.a] ==> ignore
     arg [--no-undefined] ==> ignore
     arg [--gc-sections] ==> ignore
-    arg [CMakeFiles/cmTC_0cc9b.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [CMakeFiles/cmTC_1d5f6.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
     arg [-Bstatic] ==> ignore
     arg [-lc++] ==> lib [c++]
     arg [-Bdynamic] ==> ignore
@@ -271,11 +271,11 @@ Parsed CXX implicit link information from above output:
 
 
 Detecting CXX [-std=c++1z] compiler features compiled with the following output:
-Change Dir: /Users/cordelia273/Downloads/-GameGraphics-_Homework2-master/OpenGLES_HW2/OpenGLES_HW2/app/.cxx/cmake/debug/armeabi-v7a/CMakeFiles/CMakeTmp
+Change Dir: /Users/cordelia273/Library/Mobile Documents/com~apple~CloudDocs/경희대/2학년 1학기/게임 그래픽 프로그래밍/Homework2/OpenGLES_HW2/OpenGLES_HW2/app/.cxx/cmake/debug/armeabi-v7a/CMakeFiles/CMakeTmp
 
-Run Build Command:"/Users/cordelia273/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja" "cmTC_672d5"
-[1/2] Building CXX object CMakeFiles/cmTC_672d5.dir/feature_tests.cxx.o
-[2/2] Linking CXX executable cmTC_672d5
+Run Build Command:"/Users/cordelia273/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja" "cmTC_0a245"
+[1/2] Building CXX object CMakeFiles/cmTC_0a245.dir/feature_tests.cxx.o
+[2/2] Linking CXX executable cmTC_0a245
 
 
     Feature record: CXX_FEATURE:1cxx_aggregate_default_initializers
@@ -338,11 +338,11 @@ Run Build Command:"/Users/cordelia273/Library/Android/sdk/cmake/3.10.2.4988404/b
 
 
 Detecting CXX [-std=c++14] compiler features compiled with the following output:
-Change Dir: /Users/cordelia273/Downloads/-GameGraphics-_Homework2-master/OpenGLES_HW2/OpenGLES_HW2/app/.cxx/cmake/debug/armeabi-v7a/CMakeFiles/CMakeTmp
+Change Dir: /Users/cordelia273/Library/Mobile Documents/com~apple~CloudDocs/경희대/2학년 1학기/게임 그래픽 프로그래밍/Homework2/OpenGLES_HW2/OpenGLES_HW2/app/.cxx/cmake/debug/armeabi-v7a/CMakeFiles/CMakeTmp
 
-Run Build Command:"/Users/cordelia273/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja" "cmTC_37b4e"
-[1/2] Building CXX object CMakeFiles/cmTC_37b4e.dir/feature_tests.cxx.o
-[2/2] Linking CXX executable cmTC_37b4e
+Run Build Command:"/Users/cordelia273/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja" "cmTC_d387f"
+[1/2] Building CXX object CMakeFiles/cmTC_d387f.dir/feature_tests.cxx.o
+[2/2] Linking CXX executable cmTC_d387f
 
 
     Feature record: CXX_FEATURE:1cxx_aggregate_default_initializers
@@ -405,11 +405,11 @@ Run Build Command:"/Users/cordelia273/Library/Android/sdk/cmake/3.10.2.4988404/b
 
 
 Detecting CXX [-std=c++11] compiler features compiled with the following output:
-Change Dir: /Users/cordelia273/Downloads/-GameGraphics-_Homework2-master/OpenGLES_HW2/OpenGLES_HW2/app/.cxx/cmake/debug/armeabi-v7a/CMakeFiles/CMakeTmp
+Change Dir: /Users/cordelia273/Library/Mobile Documents/com~apple~CloudDocs/경희대/2학년 1학기/게임 그래픽 프로그래밍/Homework2/OpenGLES_HW2/OpenGLES_HW2/app/.cxx/cmake/debug/armeabi-v7a/CMakeFiles/CMakeTmp
 
-Run Build Command:"/Users/cordelia273/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja" "cmTC_61b12"
-[1/2] Building CXX object CMakeFiles/cmTC_61b12.dir/feature_tests.cxx.o
-[2/2] Linking CXX executable cmTC_61b12
+Run Build Command:"/Users/cordelia273/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja" "cmTC_bd285"
+[1/2] Building CXX object CMakeFiles/cmTC_bd285.dir/feature_tests.cxx.o
+[2/2] Linking CXX executable cmTC_bd285
 
 
     Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
@@ -472,11 +472,11 @@ Run Build Command:"/Users/cordelia273/Library/Android/sdk/cmake/3.10.2.4988404/b
 
 
 Detecting CXX [-std=c++98] compiler features compiled with the following output:
-Change Dir: /Users/cordelia273/Downloads/-GameGraphics-_Homework2-master/OpenGLES_HW2/OpenGLES_HW2/app/.cxx/cmake/debug/armeabi-v7a/CMakeFiles/CMakeTmp
+Change Dir: /Users/cordelia273/Library/Mobile Documents/com~apple~CloudDocs/경희대/2학년 1학기/게임 그래픽 프로그래밍/Homework2/OpenGLES_HW2/OpenGLES_HW2/app/.cxx/cmake/debug/armeabi-v7a/CMakeFiles/CMakeTmp
 
-Run Build Command:"/Users/cordelia273/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja" "cmTC_62c5e"
-[1/2] Building CXX object CMakeFiles/cmTC_62c5e.dir/feature_tests.cxx.o
-[2/2] Linking CXX executable cmTC_62c5e
+Run Build Command:"/Users/cordelia273/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja" "cmTC_7243b"
+[1/2] Building CXX object CMakeFiles/cmTC_7243b.dir/feature_tests.cxx.o
+[2/2] Linking CXX executable cmTC_7243b
 
 
     Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers

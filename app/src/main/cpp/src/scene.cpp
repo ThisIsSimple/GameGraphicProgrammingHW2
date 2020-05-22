@@ -34,8 +34,8 @@ void Scene::setup(AAssetManager* aAssetManager) {
 
     //change here.
 //    Scene::diffuse = new Texture(Scene::program, 0, "textureDiff", floralTexels, floralSize);
-    Scene::diffuse = new Texture(Scene::program, 0, "textureDiff", checkerTexels, checkerSize);
-//    Scene::diffuse = new Texture(Scene::program, 0, "textureDiff", pusheenTexels, pusheenSize);
+//    Scene::diffuse = new Texture(Scene::program, 0, "textureDiff", checkerTexels, checkerSize);
+    Scene::diffuse = new Texture(Scene::program, 0, "textureDiff", pusheenTexels, pusheenSize);
     Scene::dissolve = new Texture(Scene::program, 1, "textureDissolve", cloudTexels, cloudSize);
     Scene::material = new Material(Scene::program, diffuse, dissolve);
     Scene::teapot = new Object(program, material, teapotVertices, teapotIndices);

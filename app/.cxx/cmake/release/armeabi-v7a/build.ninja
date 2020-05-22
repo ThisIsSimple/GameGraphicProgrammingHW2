@@ -34,7 +34,7 @@ include rules.ninja
 # Utility command for rebuild_cache
 
 build CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = cd /Users/cordelia273/Downloads/-GameGraphics-_Homework2-master/OpenGLES_HW2/OpenGLES_HW2/app/.cxx/cmake/release/armeabi-v7a && /Users/cordelia273/Library/Android/sdk/cmake/3.10.2.4988404/bin/cmake -H/Users/cordelia273/Downloads/-GameGraphics-_Homework2-master/OpenGLES_HW2/OpenGLES_HW2/app -B/Users/cordelia273/Downloads/-GameGraphics-_Homework2-master/OpenGLES_HW2/OpenGLES_HW2/app/.cxx/cmake/release/armeabi-v7a
+  COMMAND = cd "/Users/cordelia273/Library/Mobile Documents/com~apple~CloudDocs/경희대/2학년 1학기/게임 그래픽 프로그래밍/Homework2/OpenGLES_HW2/OpenGLES_HW2/app/.cxx/cmake/release/armeabi-v7a" && /Users/cordelia273/Library/Android/sdk/cmake/3.10.2.4988404/bin/cmake -H"/Users/cordelia273/Library/Mobile Documents/com~apple~CloudDocs/경희대/2학년 1학기/게임 그래픽 프로그래밍/Homework2/OpenGLES_HW2/OpenGLES_HW2/app" -B"/Users/cordelia273/Library/Mobile Documents/com~apple~CloudDocs/경희대/2학년 1학기/게임 그래픽 프로그래밍/Homework2/OpenGLES_HW2/OpenGLES_HW2/app/.cxx/cmake/release/armeabi-v7a"
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
@@ -44,7 +44,7 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 # Utility command for edit_cache
 
 build CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = cd /Users/cordelia273/Downloads/-GameGraphics-_Homework2-master/OpenGLES_HW2/OpenGLES_HW2/app/.cxx/cmake/release/armeabi-v7a && /Users/cordelia273/Library/Android/sdk/cmake/3.10.2.4988404/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+  COMMAND = cd "/Users/cordelia273/Library/Mobile Documents/com~apple~CloudDocs/경희대/2학년 1학기/게임 그래픽 프로그래밍/Homework2/OpenGLES_HW2/OpenGLES_HW2/app/.cxx/cmake/release/armeabi-v7a" && /Users/cordelia273/Library/Android/sdk/cmake/3.10.2.4988404/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
   DESC = No interactive CMake dialog available...
   restat = 1
 build edit_cache: phony CMakeFiles/edit_cache.util

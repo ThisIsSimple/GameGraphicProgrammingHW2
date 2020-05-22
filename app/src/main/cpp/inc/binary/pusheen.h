@@ -1,9 +1,9 @@
 //
-// Created by user on 2020-05-18.
+// Created by user on 2020-05-22.
 //
 
-#ifndef OPENGLES_HW2_PUSHEEN_H
-#define OPENGLES_HW2_PUSHEEN_H
+#ifndef HW2_PUSHEEN_H
+#define HW2_PUSHEEN_H
 
 #include "global.h"
 #include "texel.h"
@@ -4108,4 +4108,4 @@ vector<Texel> pusheenTexels = {{0x50, 0x36, 0x0A}, {0x31, 0x32, 0x38}, {0x20, 0x
                                {0x45, 0x18, 0x06}, {0x45, 0x18, 0x06}, {0x45, 0x18, 0x06}, {0x45, 0x18, 0x06},
                                {0x45, 0x18, 0x06}};
 
-#endif //OPENGLES_HW2_PUSHEEN_H
+#endif //HW2_PUSHEEN_H

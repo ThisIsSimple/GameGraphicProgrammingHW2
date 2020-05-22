@@ -42,7 +42,7 @@ rule CXX_SHARED_LIBRARY_LINKER__native-lib
 # Rule for re-running cmake.
 
 rule RERUN_CMAKE
-  command = /Users/cordelia273/Library/Android/sdk/cmake/3.10.2.4988404/bin/cmake -H/Users/cordelia273/Downloads/-GameGraphics-_Homework2-master/OpenGLES_HW2/OpenGLES_HW2/app -B/Users/cordelia273/Downloads/-GameGraphics-_Homework2-master/OpenGLES_HW2/OpenGLES_HW2/app/.cxx/cmake/debug/arm64-v8a
+  command = /Users/cordelia273/Library/Android/sdk/cmake/3.10.2.4988404/bin/cmake -H"/Users/cordelia273/Library/Mobile Documents/com~apple~CloudDocs/경희대/2학년 1학기/게임 그래픽 프로그래밍/Homework2/OpenGLES_HW2/OpenGLES_HW2/app" -B"/Users/cordelia273/Library/Mobile Documents/com~apple~CloudDocs/경희대/2학년 1학기/게임 그래픽 프로그래밍/Homework2/OpenGLES_HW2/OpenGLES_HW2/app/.cxx/cmake/debug/arm64-v8a"
   description = Re-running CMake...
   generator = 1
 
